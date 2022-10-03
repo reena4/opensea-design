@@ -1,0 +1,123 @@
+
+.explore{
+    padding-top: 35px;
+    padding-bottom: 15px;
+    
+}
+.img-height{
+  height: 400px;
+   flex-direction: column;
+   align-items: center;
+}
+
+.col1{
+    justify-content: center;
+    padding-top: 6%;
+    
+
+}
+.colftext{
+    letter-spacing: 2px;
+   font-size: 40px;
+   font-weight: 600;
+}
+.colsetext{
+    padding-top: 10px;
+    font-size: 27px;
+    font-weight: 50;
+    color: rgb(126, 128, 128);
+}
+.row-adjust{
+display: block;
+}
+.col-padding{
+padding-bottom: 6%;
+}
+.button-size{
+    padding:18px 55px 18px 55px;
+    font-size:medium;
+}
+.img-format{
+    border-radius: 50%;
+    max-width: 50px;
+    padding: 20 20 20 30;
+}
+  .card-textcolor{
+    color: black;
+  }
+.background{
+    background-color: rgb(45, 47, 51);
+    /* background-image:url('./Components/images/a3.jpg'); */
+    /* height: 780px;
+    background-size: cover;
+    
+    background-position: center center;
+    opacity: 0.3;
+    filter: blur(8px);
+    */
+   
+}
+
+.carousal-padding{
+    padding-bottom: 5%;
+}
+.carousel-background{
+    background-image:linear-gradient(to right, rgb(73, 72, 72) , rgb(68, 62, 104), rgb(107, 1, 107));
+}
+.align-carousel{
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 15px;
+   
+}
+.navbrand{
+    padding-top: 1.5%;
+   
+}
+.container_padding{
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 25px;
+    font-weight: 400px;
+}
+.active {
+    color: white;
+    border-bottom: 3px solid #f1f3f5;
+  }
+  .topnav-right {
+    float: right;
+    
+}
+.button{
+    padding: 10px 19px 10px 19px;
+    background-color: transparent !important;
+   font-size: 16px;
+   font-weight: 600;
+}
+.main-navigation {
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+    border-bottom-width: 1.5px;
+}
+.container_padding1{
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 15px;
+    font-weight: 200px;
+}
+.colalign{
+    text-align: justify;
+}
+.tbody{
+    color: aliceblue !important;
+}
+tr{
+    border-style:  hidden;
+    } 
+.th-text{
+    text-align: right;
+}
+.timage{
+    border-radius: 15%;
+    
+}
