@@ -1,7 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';  
-import { Navbar, Container, Nav,Form,} from 'react-bootstrap';  
+import { Navbar, Container, Nav,Form} from 'react-bootstrap';  
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faUserCircle, faWallet } from '@fortawesome/free-solid-svg-icons'
+import{Link} from "react-router-dom"
+
 
 import logo from "../../../images/logo.svg"
 import "./navstyle.css";
@@ -11,10 +13,9 @@ function NavScroll() {
     <>  
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >  
         <Container fluid className='ms-3 me-4' >  
-          <Navbar.Brand>
-          
+          <Navbar.Brand ><Link className="linkformat" to ="/">
           <img src={logo} alt="/" style={{width:40}} />
-          <span className='logo ms-2'> Opensea</span>
+          <span className='logo ms-2'> Opensea</span></Link>
           </Navbar.Brand> 
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />  
           <Navbar.Collapse id="responsive-navbar-nav"> 
@@ -49,10 +50,10 @@ function NavScroll() {
           {/* </Form.Group> */}
           </Form>
             <Nav className="me-auto ">  
-              <Nav.Link href="#features">Explore</Nav.Link>  
-              <Nav.Link href="#pricing">Stats</Nav.Link>  
-              <Nav.Link href="#pricing">Resources</Nav.Link> 
-              <Nav.Link href="#pricing">create</Nav.Link> 
+             <Nav.Link> <Link className="linkformat"  to="/Explore" >Explore</Link>  </Nav.Link>
+             <Nav.Link><Link className="linkformat"  to="/Stats" >Stats</Link> </Nav.Link> 
+             <Nav.Link> <Link className="linkformat" to="/Resources" >Resources</Link> </Nav.Link>
+             <Nav.Link> <Link className="linkformat" to="/create" >create</Link> </Nav.Link>
 
               {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">  
                 <NavDropdown.Item href="#action/3.1">Item 1</NavDropdown.Item>  
