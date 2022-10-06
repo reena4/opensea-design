@@ -23,6 +23,9 @@
   
     
 }
+.stat_formsize{
+    width: 30%;
+}
 .linkspadding{
     list-style-type: none;
     color: rgb(53, 56, 64);
@@ -34,6 +37,17 @@
     
    
     
+}
+.hr_line{
+    background-color: gray;
+    height: 3px;
+    margin-top: -2px;
+    border-style: hidden;
+}
+.stats_link{
+    color: black;
+    border-bottom: 3px solid #161616;
+    text-decoration:none; 
 }
 .horizontal-scrollable {
     overflow-x: auto;
