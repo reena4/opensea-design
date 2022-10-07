@@ -5,11 +5,9 @@ import Timage from "./images/hedz.jpg"
 import Timage1 from "./images/hed1.jpg"
 import Timage2 from "./images/hde2.gif"
 import Timage3 from "./images/hde3.jpg"
-
-
-// import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 // import { faUserCircle, faWallet } from '@fortawesome/free-solid-svg-icons'
-const Stats = () => {
+const StatsTop = () => {
   return (
     <div>
      <Container fluid >
@@ -23,7 +21,7 @@ const Stats = () => {
       </ListGroup.Item>
       <ListGroup.Item  className='gap'></ListGroup.Item>
       <ListGroup.Item className='linkspadding'>
-      <Link to="/Statstrending">Trending</Link></ListGroup.Item>
+   <Link to="/Statstrending"> Trending</Link></ListGroup.Item>
       <ListGroup.Item className='gap'></ListGroup.Item>
       <ListGroup.Item className='linkspadding'>Watchlist</ListGroup.Item>
     </ListGroup>
@@ -87,6 +85,7 @@ const Stats = () => {
           <th   className='stats_th-text1'>Change</th>
           <th   className='stats_th-text1'>Floor Price</th>
           <th   className='stats_th-text1'>Sales</th>
+          <th   className='stats_th-text1'>Sales</th>
         </tr>
       </thead>
       <tbody className='tbody stats_th-text1' >
@@ -100,6 +99,7 @@ const Stats = () => {
          <td className="stats_th-text1">+3%</td>
          <td className="stats_th-text1">-</td>
          <td className="stats_th-text1">296</td>
+         <td ><i class="fa-regular fa-star stats_th-text1"></i></td>
          
         </tr>
         <tr className='stats_th-text1'>
@@ -112,7 +112,7 @@ const Stats = () => {
          <td className="stats_th-text1">+3%</td>
          <td className="stats_th-text1">-</td>
          <td className="stats_th-text1">296</td>
-         
+         <td ><i class="fa-regular fa-star stats_th-text1"></i></td>
         </tr>
         <tr className='stats_th-text1'>
           <td width="3%" className='stats_th-text1'>1</td>
@@ -124,7 +124,7 @@ const Stats = () => {
          <td className="stats_th-text1">+3%</td>
          <td className="stats_th-text1">-</td>
          <td className="stats_th-text1">296</td>
-         
+         <td ><i class="fa-regular fa-star stats_th-text1"></i></td>
         </tr>
         <tr className='stats_th-text1'>
           <td width="3%" className='stats_th-text1'>1</td>
@@ -136,7 +136,7 @@ const Stats = () => {
          <td className="stats_th-text1">+3%</td>
          <td className="stats_th-text1">-</td>
          <td className="stats_th-text1">296</td>
-         
+         <td ><i class="fa-regular fa-star stats_th-text1"></i></td>
         </tr>
         <tr className='stats_th-text1'>
           <td width="3%" className='stats_th-text1'>1</td>
@@ -148,7 +148,7 @@ const Stats = () => {
          <td className="stats_th-text1">+3%</td>
          <td className="stats_th-text1">-</td>
          <td className="stats_th-text1">296</td>
-         
+         <td ><i class="fa-regular fa-star stats_th-text1"></i></td>
         </tr>
         <tr className='stats_th-text1'>
           <td width="3%" className='stats_th-text1'>1</td>
@@ -160,7 +160,7 @@ const Stats = () => {
          <td className="stats_th-text1">+3%</td>
          <td className="stats_th-text1">-</td>
          <td className="stats_th-text1">296</td>
-         
+         <td ><i class="fa-regular fa-star stats_th-text1"></i></td>
         </tr>
         <tr className='stats_th-text1'>
           <td width="3%" className='stats_th-text1'>1</td>
@@ -172,7 +172,7 @@ const Stats = () => {
          <td className="stats_th-text1">+3%</td>
          <td className="stats_th-text1">-</td>
          <td className="stats_th-text1">296</td>
-         
+         <td ><i class="fa-regular fa-star stats_th-text1"></i></td>
         </tr>
         <tr className='stats_th-text1'>
           <td width="3%" className='stats_th-text1'>1</td>
@@ -184,7 +184,7 @@ const Stats = () => {
          <td className="stats_th-text1">+3%</td>
          <td className="stats_th-text1">-</td>
          <td className="stats_th-text1">296</td>
-         
+         <td ><i class="fa-regular fa-star stats_th-text1"></i></td>
         </tr>
         
       </tbody>
@@ -196,15 +196,16 @@ const Stats = () => {
         </Col>
       </Row>
       </div>
-      
    </Container>
    
       
-    
      
+      
   
-    </div>
+   </div>
+   
   )
 }
 
-export default Stats;
+
+export default StatsTop;

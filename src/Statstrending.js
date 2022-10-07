@@ -1,15 +1,13 @@
-import React from 'react'
+ import React from 'react'
 import { Container, ListGroup,Row, Col,Table, Dropdown} from 'react-bootstrap';
 import { Link} from 'react-router-dom';
 import Timage from "./images/hedz.jpg"
 import Timage1 from "./images/hed1.jpg"
 import Timage2 from "./images/hde2.gif"
 import Timage3 from "./images/hde3.jpg"
-
-
 // import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 // import { faUserCircle, faWallet } from '@fortawesome/free-solid-svg-icons'
-const Stats = () => {
+const Statstrending = () => {
   return (
     <div>
      <Container fluid >
@@ -23,7 +21,7 @@ const Stats = () => {
       </ListGroup.Item>
       <ListGroup.Item  className='gap'></ListGroup.Item>
       <ListGroup.Item className='linkspadding'>
-      <Link to="/Statstrending">Trending</Link></ListGroup.Item>
+    Trending</ListGroup.Item>
       <ListGroup.Item className='gap'></ListGroup.Item>
       <ListGroup.Item className='linkspadding'>Watchlist</ListGroup.Item>
     </ListGroup>
@@ -70,7 +68,7 @@ const Stats = () => {
      
 </div>
 </div>
-<div className="ms-3 me-3 ">
+{/* <div className="ms-3 me-3 ">
 <Row className="mt-2">
       <Col md={12} className="mx-auto  colalign "> 
       <Row >
@@ -195,16 +193,17 @@ const Stats = () => {
         </Row>
         </Col>
       </Row>
-      </div>
-      
+      </div> */}
    </Container>
    
       
-    
      
+      
   
-    </div>
+   </div>
+   
   )
 }
 
-export default Stats;
+
+export default Statstrending;

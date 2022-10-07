@@ -9,6 +9,8 @@ import Stats from './Stats';
 import Resources from './Resources';
 import Create from './Create';
 import Trending from './Trending';
+import Statstrending from './Statstrending';
+import StatsTop from './StatsTop';
 
 const App = () => {
   return (
@@ -23,9 +25,12 @@ const App = () => {
             <Route exact path="/Create" element={<Create />} />
             <Route exact path='/Trending'element={<Trending/>}/>
             <Route exact path='/Top'element={<Top/>}/>
+            <Route exact path="/Statstrending" element={<Statstrending/>}/>
+            <Route exact path="/StatsTop" element={<StatsTop/>}/>
            </Routes>
         </Layout>
       </Router>
+    
     </>
     
   )

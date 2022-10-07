@@ -183,6 +183,7 @@ padding-bottom: 6%;
     padding-top: 1.5%;
    
 }
+
 .container_padding{
     padding-left: 2%;
     padding-right: 2%;
@@ -218,7 +219,7 @@ padding-bottom: 6%;
     text-align: justify;
 }
 .tbody{
-    color: aliceblue !important;
+    color: rgb(8, 8, 8) !important;
 }
 tr{
     border-style:  hidden;
@@ -227,6 +228,21 @@ tr{
     text-align: right;
 }
 .timage{
-    border-radius: 15%;
+    border-radius: 10%;
     
+}
+.stats_tab{
+    padding-bottom: 20px;
+    padding-top: 6px;
+}
+.stats_button{
+   font-size: 16px;
+  color: white;
+    
+}
+.stats_th-text1{
+    color: rgb(77, 77, 77);
+}
+.statpadding{
+    padding-left: 30px;
 }
