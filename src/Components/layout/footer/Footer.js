@@ -5,13 +5,14 @@ import "./footer.css";
 import {BsTwitter , BsInstagram,BsYoutube} from 'react-icons/bs'
 import{FaRedditAlien,FaTiktok,FaDiscord, FaRegEnvelope} from 'react-icons/fa'
 import logo from "../../../images/opensea-white.svg"
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <div>
     <footer>
   <Container fluid className='bg-primary ' >
-  <Container className='p-3'>
-    <Row className='mt-5'>
+  <Container className='p-3 containerpostion'>
+    <Row className='mt-5 containerpostion '>
     <Col md={6} >
       <h5><b>Stay in the loop</b></h5>
       <p>Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating OpenSea.</p>
@@ -106,9 +107,11 @@ const Footer = () => {
         </Col>
    </Row>
    <div className='horizontal_line mt-5 mb-4'/>
-   <Row>
+   <Row >
     <Col md={6} className="copyright">© 2018 - 2022 Ozone Networks, Inc</Col>
-    <Col md={6}>f</Col>
+    <Col md={6}  className="copyright1 ">
+    <Link to ="#" className="copyright1 me-3" ><span>Privacy policy</span></Link> 
+     <Link to ="#" className="copyright1" ><span>Terms of Service</span></Link></Col>
    </Row>
    </Container>
   </Container>

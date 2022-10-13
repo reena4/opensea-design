@@ -4,8 +4,8 @@ import "./App.css";
 import Image1 from './images/opencar.jpg'
 import Image2 from './images/opencar1.jpg'
 import Image3 from './images/opencar2.jpg'
-import Trending from './Trending.js'
-import Top from './Top';
+// import Trending from './Trending.js'
+// import Top from './Top';
 // import Image4 from './images/SNKRZ.jpg'
 // import Image5 from './images/WWWLands.jpg'
 // import Image6 from './images/ghir.jpg'
@@ -22,11 +22,11 @@ const Explore = () => {
     <div className='exploreLinks horizontal-scrollable '>
     <ListGroup horizontal>
       <ListGroup.Item className='linkspadding '>
-      <Link  to="/Trending">Trending</Link>
+      <Link  to="/Trending" className='linkspadding1'>Trending</Link>
       </ListGroup.Item>
       <ListGroup.Item  className='gap'></ListGroup.Item>
       <ListGroup.Item className='linkspadding'>
-      <Link to ="/Top">Top</Link></ListGroup.Item>
+      <Link to ="/Top" className='linkspadding1'>Top</Link></ListGroup.Item>
       <ListGroup.Item className='gap'></ListGroup.Item>
       <ListGroup.Item className='linkspadding'>Art</ListGroup.Item>
       <ListGroup.Item className='gap'></ListGroup.Item>
@@ -347,8 +347,8 @@ const Explore = () => {
     
     </div>
    </Container>
-   <Trending/>
-   <Top/>
+   {/* <Trending/>
+   <Top/> */}
     </>
   )
 }

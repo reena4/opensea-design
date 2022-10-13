@@ -32,11 +32,12 @@
    border-style: hidden;
      padding-left: 0px;
   /* padding-right: 0px; */
-  
+  text-decoration: none;
     font-size: 16px;
-    
-   
-    
+}
+.linkspadding1{
+    text-decoration: none;
+    color: #161616;
 }
 .hr_line{
     background-color: gray;
@@ -245,4 +246,33 @@ tr{
 }
 .statpadding{
     padding-left: 30px;
+}
+.create{
+   
+    color: black;
+   
+}
+.create1{
+   
+    color: #161616;
+}
+.colum{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(11, 12, 14);
+    border-radius: 10px;
+    margin: 0px;
+    color: #161616;
+}
+.createimg{
+    height: 24px;
+    
+}
+.createtext{
+    color: #161616;
+    font-size: 14px;
+}
+Button{
+    float: right;
+   
+    
 }
