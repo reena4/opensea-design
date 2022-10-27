@@ -44,7 +44,7 @@ const Stats = () => {
 <div className="ms-3 me-3 " >
 <div>
 <Dropdown className="d-inline mx-2"  >
-        <Dropdown.Toggle id="dropdown-autoclose-true" variant="outline-secondary ">
+        <Dropdown.Toggle id="dropdown-autoclose-true" variant="dark ">
           All Categories
         </Dropdown.Toggle>
 

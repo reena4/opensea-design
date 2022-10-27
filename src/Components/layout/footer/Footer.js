@@ -6,7 +6,12 @@ import {BsTwitter , BsInstagram,BsYoutube} from 'react-icons/bs'
 import{FaRedditAlien,FaTiktok,FaDiscord, FaRegEnvelope} from 'react-icons/fa'
 import logo from "../../../images/opensea-white.svg"
 import { Link } from 'react-router-dom';
+import { useLocation } from "react-router-dom";
+
 const Footer = () => {
+  const { pathname } = useLocation();
+  console.log(pathname);
+  if (pathname === "/Stats") return null;
   return (
     <div>
     <footer>

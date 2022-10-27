@@ -8,8 +8,8 @@ const Layout = (props) => {
     <>
       <NavScroll/>
       {props.children}
-      <Footer/>
-
+      {/* {Location.pathname !== '/Home' && <Footer /> }  */}
+           <Footer/>
     </>
   )
 }

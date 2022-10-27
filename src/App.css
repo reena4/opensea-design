@@ -271,8 +271,12 @@ tr{
     color: #161616;
     font-size: 14px;
 }
-Button{
+.Button_Create{
     float: right;
    
     
+}
+.listalign{
+    text-align: center;
+    color: #161616;
 }
